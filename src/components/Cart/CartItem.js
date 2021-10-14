@@ -13,7 +13,7 @@ const CartItem = ({ item }) => {
         <tr>
             <td width="80">
                 <Link to={'/item/' + item.id}>
-                    <img src={'/img/products/' + item.image} width="80" alt="" />
+                    <img src={item.image} width="80" alt="" />
                 </Link>
             </td>
             <td width="50%"><Link to={'/item/' + item.id}>{item.title}</Link></td>
