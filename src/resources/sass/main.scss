@@ -1,0 +1,42 @@
+$primary: #F7931E;
+$secondary:white;
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 7rem;
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #b1b1b17a;
+    color: $secondary;
+}
+
+.tag-intensity {
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.card {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    &:hover{
+        transform: scale(1.02);
+        transition: all 350ms;
+    }
+
+    .card-body {
+        padding: 2rem;
+    }
+}
